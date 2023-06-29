@@ -1,0 +1,34 @@
+@media only screen and (max-width: 768px) {
+    .style.posterImageDiv {
+        width: 100%;
+        height: 40%;
+        position: relative;
+        z-index: 0;
+    }
+
+    .mainImage {
+        width: 100%;
+    }
+
+    .smallImageDiv {
+        position: absolute;
+        z-index: 1;
+        margin-top: -80px;
+        margin-left: 20px;
+        display: flex;
+        align-items: baseline;
+    }
+
+    .smallImage {
+        width: 90px;
+        height: 110px;
+    }
+
+    .movieTitle {
+        font-size: medium;
+        display: inline;
+        font-weight: bold;
+        text-align: left;align-items: center;
+        margin-left: 20px;
+    }
+}
